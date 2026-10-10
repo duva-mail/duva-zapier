@@ -1,0 +1,28 @@
+{
+  "name": "duva-zapier",
+  "version": "1.0.0",
+  "description": "Duva integration for Zapier: send transactional email, react to delivery events, manage the suppression list.",
+  "license": "MIT",
+  "private": true,
+  "homepage": "https://duva.ca",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duva-mail/duva-zapier.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test test/app.test.js",
+    "validate": "zapier-platform validate",
+    "push": "zapier-platform push"
+  },
+  "engines": {
+    "node": ">=18.20"
+  },
+  "dependencies": {
+    "zapier-platform-core": "19.2.0"
+  },
+  "devDependencies": {
+    "nock": "^14.0.0",
+    "zapier-platform-cli": "19.2.0"
+  }
+}

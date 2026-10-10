@@ -1,0 +1,6 @@
+node_modules/
+.env
+.zapierapprc.bak
+build/
+*.zip
+.DS_Store
